@@ -109,7 +109,7 @@ public partial class _Default : System.Web.UI.Page
             yeniMesaj.Body = mesajIcerik + "<br/>" + "<br/>" + "Gönderen İp: " + ipAdresi;
 
             SmtpClient gonder = new SmtpClient();
-            gonder.Credentials = new NetworkCredential("raailetisim@gmail.com", "793367c.");
+            gonder.Credentials = new NetworkCredential("raailetisim@gmail.com", ".");
             gonder.Port = 587;
             gonder.Host = "smtp.gmail.com";
             gonder.EnableSsl = true;
